@@ -10,7 +10,7 @@ config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: '*', // Replace with your frontend URL
+    origin: ["https://gym-application-ern-frontend.vercel.app"], // Replace with your frontend URL
     methods: ["POST"],
     credentials: true,
   })
